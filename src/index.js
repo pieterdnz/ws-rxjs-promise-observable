@@ -5,7 +5,7 @@ import { Observable } from "rxjs";
 
 initBody("rx-js promise vs observable");
 
-add.li("log 1");
+add.li("log 1 ");
 
 const p = new Promise((resolve, reject) => {
   setTimeout(() => {
