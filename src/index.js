@@ -8,8 +8,7 @@ initBody("rx-js promise vs observable");
 add.li("log 1 ");
 
 const p = new Promise((resolve, reject) => {
-  setInterval(() => {
-    console.log(11);
+  setTimeout(() => {
     resolve("We are done promise");
   }, 5000);
 });
