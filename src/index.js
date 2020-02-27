@@ -9,7 +9,7 @@ add.li("log 1 ");
 
 const p = new Promise((resolve, reject) => {
   setTimeout(() => {
-    resolve("We are done promise");
+    resolve("We are done promise!");
   }, 5000);
 });
 
